@@ -4,257 +4,733 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DP PAVAN | Portfolio</title>
+    <title>Pavan | Software Developer & AI Builder</title>
+    <meta name="description" content="Portfolio of Pavan — Computer Science Engineering student at NMIT Bangalore, building real-world applications in Flutter, Android, Backend, and AI/LLM systems." />
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Background subtle gradient glow effects -->
+    <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
     <header class="site-header">
-      <div class="logo">DP PAVAN</div>
-      <nav class="nav" aria-label="Primary navigation">
-        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="nav__toggle-line"></span>
-          <span class="nav__toggle-line"></span>
-          <span class="nav__toggle-line"></span>
-        </button>
-        <ul id="nav-menu" class="nav__menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#journey">Journey</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <a href="#home" class="logo" aria-label="Pavan - Home">
+          <span class="logo__bracket">&lt;</span><span class="logo__name">PAVAN</span><span class="logo__bracket"> /&gt;</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+            <span class="nav__toggle-line"></span>
+          </button>
+          
+          <ul id="navMenu" class="nav__menu">
+            <li><a href="#home" class="nav__link active">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#experience" class="nav__link">Experience</a></li>
+            <li><a href="#github" class="nav__link">GitHub</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
+    <main id="mainContent">
+      <!-- 1. HERO SECTION -->
       <section id="home" class="section hero">
         <div class="hero__content">
-          <p class="eyebrow">Frontend Developer & CSE Undergraduate</p>
-          <h1>Building clean UI and smooth UX experiences.</h1>
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>CSE @ NMIT Bangalore &bull; Building Practical Software &amp; AI</span>
+          </div>
+          
+          <h1 class="hero__title">
+            Hi, I'm <span class="text-gradient">Pavan</span>.
+            <span class="hero__headline">Building software systems, mobile experiences &amp; AI applications.</span>
+          </h1>
+          
           <p class="hero__subtitle">
-            I’m DP PAVAN, a dedicated frontend developer crafting visually clean, intuitive interfaces and polished user experiences. I’m open to freelance collaborations that bring bold digital concepts to life.
+            Computer Science Engineering student passionate about turning complex ideas into functional products. Focused on Flutter &amp; Android development, robust backends, and AI/LLM integration.
           </p>
+          
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#contact">Contact Me</a>
-            <a class="btn btn--ghost" href="#about">View My Journey</a>
+            <a class="btn btn--primary" href="#projects">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span>View Projects</span>
+            </a>
+            <a class="btn btn--secondary" href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+            <a class="btn btn--ghost" href="#contact">
+              <span>Contact Me</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
           </div>
         </div>
+
         <div class="hero__visual">
-          <figure class="profile-frame" aria-label="Profile photo">
-            <img
-              src="assets/profile.jpg"
-              alt="Portrait of DP Pavan against a blue sky background"
-              class="profile-photo"
-            />
-          </figure>
-          <div class="now-learning">
-            <p class="label">Now Learning</p>
-            <p>HTML & Frontend Basics</p>
+          <div class="profile-card">
+            <div class="profile-frame">
+              <img
+                src="assets/profile.jpg"
+                alt="Portrait of Pavan"
+                class="profile-photo"
+                loading="eager"
+              />
+            </div>
+            <div class="profile-floating-badge">
+              <div class="badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              </div>
+              <div>
+                <p class="badge-title">Active Builder</p>
+                <p class="badge-desc">Hackathons &amp; Engineering</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section section--surface">
+      <!-- 2. ABOUT SECTION -->
+      <section id="about" class="section">
         <div class="section__header">
-          <p class="eyebrow">Who I Am</p>
-          <h2>About Me</h2>
+          <p class="eyebrow">Background &amp; Focus</p>
+          <h2 class="section__title">About Me</h2>
         </div>
-        <div class="about__grid">
-          <div>
-            <p>
-              I’m a frontend developer focused on crafting visually clean, intuitive interfaces and delivering smooth, polished user experiences. I love writing elegant, reliable code and continuously explore new technologies through side projects and active learning. I’m currently open to freelance work and exciting collaboration opportunities.
+
+        <div class="about__container glass-card">
+          <div class="about__text">
+            <p class="lead-text">
+              I am a <strong>Computer Science Engineering student at Nitte Meenakshi Institute of Technology (NMIT), Bangalore</strong>, passionate about software engineering, system architecture, and modern application development.
             </p>
-            <div class="about__learning">
-              <p class="label">Currently focusing on</p>
-              <ul>
-                <li>HTML structure & semantics</li>
-                <li>Frontend fundamentals</li>
-                <li>UI/UX experimentation</li>
-              </ul>
+            <p>
+              My approach revolves around practical problem-solving: designing responsive mobile user interfaces in Flutter &amp; Android, engineering clean REST APIs with FastAPI and Node.js, and integrating LLMs and agentic workflows into functional products.
+            </p>
+            <p>
+              I thrive in fast-paced hackathons and sprint environments where building end-to-end prototypes from scratch demands rapid architecture decisions, clear communication, and agile execution.
+            </p>
+
+            <div class="about__pills">
+              <span class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Practical Software Engineering</span>
+              <span class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> AI / LLM Application Development</span>
+              <span class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cross-Platform &amp; Native Mobile</span>
+              <span class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Hackathon Rapid Prototyping</span>
             </div>
           </div>
-          <div class="about__card">
-            <p class="label">Education</p>
-            <h3>NMIT, Bangalore</h3>
-            <p>
-              Bachelor’s degree in Computer Science Engineering (in progress) at Nitte Meenakshi Institute of Technology.
-            </p>
-            <div class="timeline">
-              <div class="timeline__item">
-                <span class="timeline__dot"></span>
+
+          <div class="about__education">
+            <div class="edu-card">
+              <div class="edu-header">
+                <div class="edu-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
                 <div>
-                  <p class="timeline__title">Started CSE at NMIT</p>
-                  <p class="timeline__subtitle">Bangalore</p>
+                  <span class="label">Education</span>
+                  <h3 class="edu-title">B.E. in Computer Science &amp; Engineering</h3>
+                  <p class="edu-inst">Nitte Meenakshi Institute of Technology (NMIT)</p>
+                  <p class="edu-loc">Bangalore, Karnataka</p>
                 </div>
               </div>
-              <div class="timeline__item">
-                <span class="timeline__dot"></span>
-                <div>
-                  <p class="timeline__title">Exploring Frontend & UI/UX</p>
-                  <p class="timeline__subtitle">Building personal projects</p>
-                </div>
-              </div>
-              <div class="timeline__item">
-                <span class="timeline__dot"></span>
-                <div>
-                  <p class="timeline__title">Open to Freelance & Collaborations</p>
-                  <p class="timeline__subtitle">Ready for new challenges</p>
-                </div>
+              <div class="edu-details">
+                <p class="edu-summary">
+                  Building deep foundations in Data Structures, Algorithms, Database Management, Operating Systems, Computer Networks, and Full-Stack Systems.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- 3. SKILLS SECTION -->
       <section id="skills" class="section">
         <div class="section__header">
-          <p class="eyebrow">Capabilities</p>
-          <h2>Skills</h2>
+          <p class="eyebrow">Technical Competence</p>
+          <h2 class="section__title">Skills &amp; Technologies</h2>
           <p class="section__lead">
-            I’m building a strong foundation in frontend development. Here are my core skills so far, with more to come as I learn and grow.
+            A comprehensive overview of languages, frameworks, databases, and tools I use to build production-ready applications.
           </p>
         </div>
-        <div class="skills__grid">
-          <article class="skill-card">
-            <p class="label">Foundation</p>
-            <h3>HTML</h3>
-            <p>Semantic structure, accessibility-first markup, and clean layouts.</p>
-          </article>
-          <article class="skill-card skill-card--placeholder">
-            <p>Room for more skills soon</p>
-          </article>
-          <article class="skill-card skill-card--placeholder">
-            <p>Room for more skills soon</p>
-          </article>
-        </div>
-      </section>
 
-      <section id="journey" class="section section--surface">
-        <div class="section__header">
-          <p class="eyebrow">Early Stage</p>
-          <h2>My Journey So Far</h2>
-        </div>
-        <div class="journey__content">
-          <p>
-            I’m actively developing my skills through academic coursework, lab activities, and small personal projects. Even without formal work experience yet, I’ve built a strong foundation in computer science concepts and frontend fundamentals. I’m eager to apply my knowledge in real-world environments, internships, freelance work, and collaborative projects.
-          </p>
-          <div class="journey__cards">
-            <article class="journey-card">
-              <h3>Computer Science Engineering Student</h3>
-              <p>Nitte Meenakshi Institute of Technology, Bangalore</p>
-            </article>
-            <article class="journey-card">
-              <h3>Frontend Development Enthusiast</h3>
-              <p>Exploring UI/UX and modern web interfaces</p>
-            </article>
-            <article class="journey-card">
-              <h3>Seeking Opportunities</h3>
-              <p>Internships, freelance gigs, and collaboration invites</p>
-            </article>
+        <div class="skills__grid">
+          <!-- Category: Languages -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-group__title">Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Dart</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Kotlin</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML5 / CSS3</span>
+            </div>
+          </div>
+
+          <!-- Category: Mobile Development -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              </div>
+              <h3 class="skill-group__title">Mobile Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">Android SDK</span>
+              <span class="skill-tag">State Management</span>
+              <span class="skill-tag">Background Services</span>
+              <span class="skill-tag">Mobile UI/UX</span>
+            </div>
+          </div>
+
+          <!-- Category: Backend -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3 class="skill-group__title">Backend</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">RESTful APIs</span>
+              <span class="skill-tag">API Integration</span>
+              <span class="skill-tag">Async Architecture</span>
+            </div>
+          </div>
+
+          <!-- Category: Database -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-group__title">Database</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Firebase Firestore</span>
+              <span class="skill-tag">Firebase Auth</span>
+              <span class="skill-tag">Firebase Storage</span>
+              <span class="skill-tag">Relational Modeling</span>
+            </div>
+          </div>
+
+          <!-- Category: AI / LLM -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 3.37 2.1 6.25 5.09 7.42l.91 3.58 2-.67 2 .67.91-3.58C17.9 16.25 20 13.37 20 10a8 8 0 0 0-8-8z"></path><line x1="9.5" y1="9" x2="9.51" y2="9"></line><line x1="14.5" y1="9" x2="14.51" y2="9"></line></svg>
+              </div>
+              <h3 class="skill-group__title">AI / LLM</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">AI/LLM Application Dev</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">LLM API Integration</span>
+              <span class="skill-tag">Autonomous Agent Concepts</span>
+              <span class="skill-tag">Context Orchestration</span>
+            </div>
+          </div>
+
+          <!-- Category: Cloud & DevOps -->
+          <div class="skill-group glass-card">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <h3 class="skill-group__title">Cloud &amp; Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Containerization</span>
+              <span class="skill-tag">CI/CD Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Category: Developer Tools -->
+          <div class="skill-group glass-card skill-group--full">
+            <div class="skill-group__header">
+              <div class="skill-group__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-group__title">Developer Tools &amp; Environment</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Android Studio</span>
+              <span class="skill-tag">Postman</span>
+              <span class="skill-tag">Linux / Bash</span>
+              <span class="skill-tag">Full-Stack Architecture</span>
+              <span class="skill-tag">Version Control</span>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- 4. PROJECTS SECTION -->
       <section id="projects" class="section">
         <div class="section__header">
-          <p class="eyebrow">Future Work</p>
-          <h2>Projects</h2>
+          <p class="eyebrow">Featured Work</p>
+          <h2 class="section__title">Projects &amp; Concepts</h2>
           <p class="section__lead">
-            I’m currently learning and building my foundation. I’ll showcase my best projects here as I create them.
+            Real projects and hackathon concepts engineered with a focus on problem-solving, architectural clarity, and practical utility.
           </p>
         </div>
-        <div class="projects__grid">
-          <article class="project-card">
-            <p class="label">Coming Soon</p>
-            <h3>Project Placeholder</h3>
-            <p>Once published, projects will include descriptions, tech stacks, and live/demo links.</p>
+
+        <div class="projects__container">
+          <!-- Project 1: DevGuard AI -->
+          <article class="project-card glass-card">
+            <div class="project-card__top">
+              <div class="project-badge">Hackathon Concept &bull; AI / DevTools</div>
+              <h3 class="project-title">DevGuard AI</h3>
+              <p class="project-desc">
+                An intelligent developer assistant and automated code debugging/auditing concept designed to proactively identify logic errors, security vulnerabilities, and anti-patterns.
+              </p>
+            </div>
+
+            <div class="project-breakdown">
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--problem">Problem</span>
+                <p class="breakdown-text">Manual code reviews and vulnerability detection during rapid development cycles are time-consuming and often miss hidden edge cases.</p>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--solution">Solution</span>
+                <p class="breakdown-text">Automated LLM-driven auditing engine that parses code syntax, evaluates threat profiles, and suggests context-aware remediation diffs.</p>
+              </div>
+            </div>
+
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">AI / LLM Integration</span>
+              <span class="tech-badge">Prompt Engineering</span>
+              <span class="tech-badge">Git APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
           </article>
-          <article class="project-card">
-            <p class="label">Coming Soon</p>
-            <h3>Project Placeholder</h3>
-            <p>Designed to be easily replaced with real work as the portfolio grows.</p>
+
+          <!-- Project 2: PocketOps AI -->
+          <article class="project-card glass-card">
+            <div class="project-card__top">
+              <div class="project-badge">Mobile AI Concept &bull; Agentic Systems</div>
+              <h3 class="project-title">PocketOps AI</h3>
+              <p class="project-desc">
+                An autonomous AI phone operator concept that accepts natural-language directives from users, breaks them down into task graphs, and orchestrates device actions.
+              </p>
+            </div>
+
+            <div class="project-breakdown">
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--problem">Problem</span>
+                <p class="breakdown-text">Executing complex multi-step mobile workflows manually requires switching across multiple apps and continuous screen interaction.</p>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--solution">Solution</span>
+                <p class="breakdown-text">An on-device agent planner translating conversational voice/text instructions into sequential executable system and API calls.</p>
+              </div>
+            </div>
+
+            <div class="project-tech">
+              <span class="tech-badge">Android</span>
+              <span class="tech-badge">Kotlin</span>
+              <span class="tech-badge">LLM APIs</span>
+              <span class="tech-badge">Agent Workflows</span>
+              <span class="tech-badge">REST APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
           </article>
-          <article class="project-card">
-            <p class="label">Coming Soon</p>
-            <h3>Project Placeholder</h3>
-            <p>Structured grid layout scales from mobile to large screens gracefully.</p>
+
+          <!-- Project 3: SafeRoute AI -->
+          <article class="project-card glass-card">
+            <div class="project-card__top">
+              <div class="project-badge">Full-Stack &bull; Safety Mapping</div>
+              <h3 class="project-title">SafeRoute AI</h3>
+              <p class="project-desc">
+                An AI-driven safety navigation and risk-mapping concept using live map APIs, backend risk scoring algorithms, and geospatial databases to prioritize user safety.
+              </p>
+            </div>
+
+            <div class="project-breakdown">
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--problem">Problem</span>
+                <p class="breakdown-text">Standard navigation platforms optimize strictly for shortest travel time or distance, ignoring dynamic safety ratings and lighting factors.</p>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--solution">Solution</span>
+                <p class="breakdown-text">Safety-weighted routing engine combining backend database queries with algorithmic hazard assessment to calculate secure paths.</p>
+              </div>
+            </div>
+
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">Map APIs</span>
+              <span class="tech-badge">Docker</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: ReelTune -->
+          <article class="project-card glass-card">
+            <div class="project-card__top">
+              <div class="project-badge">Mobile App &bull; Audio Streaming</div>
+              <h3 class="project-title">ReelTune</h3>
+              <p class="project-desc">
+                A Flutter-based music application exploring YouTube-based music playback, local audio caching, background media playback services, and custom playback controls.
+              </p>
+            </div>
+
+            <div class="project-breakdown">
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--problem">Problem</span>
+                <p class="breakdown-text">Building a lightweight audio player requires intricate handling of background audio lifecycles, memory buffering, and notification sync.</p>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--solution">Solution</span>
+                <p class="breakdown-text">Implemented Flutter audio session handlers with background playback controllers, playlist state management, and modern fluid UI.</p>
+              </div>
+            </div>
+
+            <div class="project-tech">
+              <span class="tech-badge">Flutter</span>
+              <span class="tech-badge">Dart</span>
+              <span class="tech-badge">Audio Services</span>
+              <span class="tech-badge">REST APIs</span>
+              <span class="tech-badge">Mobile UI</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Philately Passport Karnataka -->
+          <article class="project-card glass-card">
+            <div class="project-card__top">
+              <div class="project-badge">Mobile App &bull; Location-Based Concept</div>
+              <h3 class="project-title">Philately Passport Karnataka</h3>
+              <p class="project-desc">
+                A location-based tourism application concept designed around Karnataka's rich philatelic heritage, offering digital passport stamps for historical postal landmarks.
+              </p>
+            </div>
+
+            <div class="project-breakdown">
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--problem">Problem</span>
+                <p class="breakdown-text">Philatelic and historical heritage sites often lack interactive, gamified digital touchpoints that resonate with younger demographics.</p>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label breakdown-label--solution">Solution</span>
+                <p class="breakdown-text">Location-aware passport check-in app with interactive maps, collectible digital postal seals, and offline-capable discovery data.</p>
+              </div>
+            </div>
+
+            <div class="project-tech">
+              <span class="tech-badge">Flutter</span>
+              <span class="tech-badge">Dart</span>
+              <span class="tech-badge">Firebase</span>
+              <span class="tech-badge">Geolocation APIs</span>
+              <span class="tech-badge">UI/UX Design</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--outline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="services" class="section section--surface">
+      <!-- 5. HACKATHONS & EXPERIENCE SECTION -->
+      <section id="experience" class="section">
         <div class="section__header">
-          <p class="eyebrow">Future Ready</p>
-          <h2>Services</h2>
-        </div>
-        <div class="services__content">
-          <p>
-            I’m currently focused on learning and improving my frontend skills. In the future, I plan to offer services like modern web page design and frontend development. Stay tuned!
+          <p class="eyebrow">Builder Journey</p>
+          <h2 class="section__title">Hackathons &amp; Experience</h2>
+          <p class="section__lead">
+            Hands-on project building, high-pressure hackathon sprints, and technical team collaborations.
           </p>
-          <div class="service-placeholders">
-            <div class="service-placeholder">Future Service Card</div>
-            <div class="service-placeholder">Future Service Card</div>
+        </div>
+
+        <div class="experience__container">
+          <div class="timeline-v2">
+            <!-- Experience Item 1 -->
+            <div class="timeline-v2__item">
+              <div class="timeline-v2__dot"></div>
+              <div class="timeline-v2__card glass-card">
+                <div class="timeline-v2__header">
+                  <div>
+                    <h3 class="timeline-v2__title">Hackathon Prototyping &amp; AI Solution Building</h3>
+                    <p class="timeline-v2__meta">Sprint Innovation &bull; Developer &amp; Team Contributor</p>
+                  </div>
+                  <span class="timeline-v2__badge">Active Focus</span>
+                </div>
+                <p class="timeline-v2__body">
+                  Participating in fast-paced competitive hackathons, collaborating in multidisciplinary teams to engineer working software prototypes under strict time constraints. Designed and implemented concepts such as DevGuard AI and SafeRoute AI.
+                </p>
+                <div class="timeline-v2__highlights">
+                  <div class="highlight-chip">
+                    <span class="highlight-chip__label">Focus:</span> Rapid architecture design, API scaffolding, AI model prompt engineering, UI polish.
+                  </div>
+                  <div class="highlight-chip">
+                    <span class="highlight-chip__label">Key Skills:</span> FastAPI, Flutter, Git workflow, fast debugging under deadlines.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="timeline-v2__item">
+              <div class="timeline-v2__dot"></div>
+              <div class="timeline-v2__card glass-card">
+                <div class="timeline-v2__header">
+                  <div>
+                    <h3 class="timeline-v2__title">Independent Application Engineering</h3>
+                    <p class="timeline-v2__meta">Personal Projects &bull; Mobile &amp; Backend Systems</p>
+                  </div>
+                  <span class="timeline-v2__badge">Ongoing</span>
+                </div>
+                <p class="timeline-v2__body">
+                  Architecting full-stack software from ideation to implementation. Exploring audio streaming architectures (ReelTune), mobile autonomy concepts (PocketOps AI), and location-aware services (Philately Passport Karnataka).
+                </p>
+                <div class="timeline-v2__highlights">
+                  <div class="highlight-chip">
+                    <span class="highlight-chip__label">Focus:</span> Clean component architecture, database modeling with PostgreSQL/Firebase, state management.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience Item 3 -->
+            <div class="timeline-v2__item">
+              <div class="timeline-v2__dot"></div>
+              <div class="timeline-v2__card glass-card">
+                <div class="timeline-v2__header">
+                  <div>
+                    <h3 class="timeline-v2__title">Computer Science Engineering Academics</h3>
+                    <p class="timeline-v2__meta">Nitte Meenakshi Institute of Technology, Bangalore</p>
+                  </div>
+                  <span class="timeline-v2__badge">Undergraduate</span>
+                </div>
+                <p class="timeline-v2__body">
+                  Mastering core computer science fundamentals including Data Structures &amp; Algorithms, Object-Oriented Programming (Java/Python), Database Management Systems (SQL), Operating Systems, and Computer Networks.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- 6. GITHUB SECTION -->
+      <section id="github" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Open Source &amp; Code</p>
+          <h2 class="section__title">GitHub Profile</h2>
+          <p class="section__lead">
+            Explore my code repositories, project implementations, and ongoing software experiments.
+          </p>
+        </div>
+
+        <div class="github__card glass-card">
+          <div class="github__content">
+            <div class="github__icon-wrapper">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div class="github__info">
+              <h3 class="github__handle">github.com/pavan-code-06</h3>
+              <p class="github__desc">
+                Public repositories covering Flutter mobile apps, AI application prototypes, FastAPI backend services, and hackathon project codebases.
+              </p>
+            </div>
+          </div>
+          <div class="github__cta">
+            <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Visit GitHub Profile</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. CONTACT SECTION -->
       <section id="contact" class="section">
         <div class="section__header">
-          <p class="eyebrow">Stay in Touch</p>
-          <h2>Contact</h2>
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section__title">Contact &amp; Connect</h2>
           <p class="section__lead">
-            I’m currently learning and building my portfolio. I’ll be updating my website with full contact details soon. In the meantime, placeholders below show where email and social profiles will live.
+            Whether you want to collaborate on a project, discuss hackathons, or explore opportunities, feel free to reach out.
           </p>
         </div>
-        <div class="contact__grid">
-          <div class="contact__card">
-            <p class="label">Email</p>
-            <p class="placeholder">email@example.com (coming soon)</p>
+
+        <div class="contact__wrapper">
+          <div class="contact__cards">
+            <!-- Email Card with Copy Feature -->
+            <div class="contact-card glass-card">
+              <div class="contact-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-card__body">
+                <span class="label">Email</span>
+                <p class="contact-card__value" id="emailText">1nt24cs090.pavan@nmit.ac.in</p>
+              </div>
+              <div class="contact-card__actions">
+                <a href="mailto:1nt24cs090.pavan@nmit.ac.in" class="btn btn--small btn--primary">Send Email</a>
+                <button type="button" class="btn btn--small btn--ghost" id="copyEmailBtn" aria-label="Copy email address">
+                  <span id="copyEmailLabel">Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card glass-card">
+              <div class="contact-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </div>
+              <div class="contact-card__body">
+                <span class="label">GitHub</span>
+                <p class="contact-card__value">pavan-code-06</p>
+              </div>
+              <div class="contact-card__actions">
+                <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--primary">View Profile</a>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <div class="contact-card glass-card">
+              <div class="contact-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </div>
+              <div class="contact-card__body">
+                <span class="label">LinkedIn</span>
+                <p class="contact-card__value">pavan-d-p-2b7184398</p>
+              </div>
+              <div class="contact-card__actions">
+                <a href="https://www.linkedin.com/in/pavan-d-p-2b7184398" target="_blank" rel="noopener noreferrer" class="btn btn--small btn--primary">Connect</a>
+              </div>
+            </div>
           </div>
-          <div class="contact__card">
-            <p class="label">LinkedIn</p>
-            <p class="placeholder">linkedin.com/in/dppavan (coming soon)</p>
-          </div>
-          <div class="contact__card">
-            <p class="label">GitHub</p>
-            <p class="placeholder">github.com/dppavan (coming soon)</p>
-          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form glass-card" id="contactForm" aria-label="Contact Message Form">
+            <h3 class="form-title">Send a Direct Message</h3>
+            
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="formName">Your Name</label>
+                <input type="text" id="formName" name="name" placeholder="e.g. Alex Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="formEmail">Your Email</label>
+                <input type="email" id="formEmail" name="email" placeholder="e.g. alex@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formSubject">Subject</label>
+              <input type="text" id="formSubject" name="subject" placeholder="e.g. Project Collaboration / Hackathon" required />
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage">Message</label>
+              <textarea id="formMessage" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn--primary" type="submit" id="submitBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Send Message</span>
+              </button>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </div>
+          </form>
         </div>
-        <form class="contact-form" aria-label="Contact form placeholder">
-          <div class="form-grid">
-            <label>
-              <span>Name</span>
-              <input type="text" placeholder="Coming soon" disabled />
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" placeholder="Coming soon" disabled />
-            </label>
-          </div>
-          <label class="form-full">
-            <span>Message</span>
-            <textarea rows="4" placeholder="Coming soon" disabled></textarea>
-          </label>
-          <button class="btn btn--primary" type="button" disabled>Send Message</button>
-        </form>
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="site-footer">
-      <p>© <span id="year"></span> DP PAVAN</p>
-      <p>Aspiring Frontend Developer & CSE Undergraduate</p>
-      <div class="footer__socials">
-        <span class="placeholder">Social links coming soon</span>
+      <div class="footer-container">
+        <div class="footer__brand">
+          <a href="#home" class="logo">
+            <span class="logo__bracket">&lt;</span><span class="logo__name">PAVAN</span><span class="logo__bracket"> /&gt;</span>
+          </a>
+          <p class="footer__tagline">Computer Science Engineering &bull; NMIT Bangalore</p>
+        </div>
+
+        <div class="footer__nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer__socials">
+          <a href="https://github.com/pavan-code-06" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/pavan-d-p-2b7184398" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; <span id="year"></span> Pavan. Built with clean HTML, CSS &amp; JavaScript.</p>
+        </div>
       </div>
     </footer>
+
+    <!-- Toast Notification Container -->
+    <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
 
     <script src="script.js"></script>
   </body>
