@@ -372,18 +372,32 @@ I am a **Software Engineer & Computer Science Scholar** at **Nitte Meenakshi Ins
 
 <div align="center">
 
-<table border="0">
+<!-- High Availability Live Shields Analytics -->
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub-pavan--code--06-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  <img src="https://img.shields.io/github/followers/pavan-code-06?style=for-the-badge&logo=github&color=6366F1&label=Followers" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/pavan-code-06?style=for-the-badge&logo=apachespark&color=8B5CF6&label=Stars" alt="Stars" />
+  <img src="https://img.shields.io/badge/Primary%20Stack-Flutter%20%7C%20FastAPI%20%7C%20Postgres-7C3AED?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Primary Stack" />
+</p>
+
+<table border="0" align="center">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=pavan-code-06&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&icon_color=818CF8&border_color=6366F1&hide_border=false&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats" />
+      <a href="https://github.com/pavan-code-06" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api?username=pavan-code-06&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&icon_color=818CF8&border_color=6366F1&hide_border=false&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats" />
+      </a>
     </td>
     <td align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=pavan-code-06&theme=tokyonight&background=0D1117&border=6366F1&stroke=8B5CF6&ring=A855F7&fire=818CF8&currStreakLabel=A855F7&hide_border=false" width="100%" alt="Streak Stats" />
+      <a href="https://github.com/pavan-code-06" target="_blank">
+        <img src="https://streak-stats.demolab.com/?user=pavan-code-06&theme=tokyonight&background=0D1117&border=6366F1&stroke=8B5CF6&ring=A855F7&fire=818CF8&currStreakLabel=A855F7&hide_border=false" width="100%" alt="Streak Stats" />
+      </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavan-code-06&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&border_color=6366F1&hide_border=false" width="65%" alt="Top Languages" />
+      <a href="https://github.com/pavan-code-06" target="_blank">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavan-code-06&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&border_color=6366F1&hide_border=false" width="65%" alt="Top Languages" />
+      </a>
     </td>
   </tr>
 </table>
@@ -400,7 +414,19 @@ I am a **Software Engineer & Computer Science Scholar** at **Nitte Meenakshi Ins
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=pavan-code-06&theme=tokyonight&no-frame=false&no-bg=false&margin_w=4&row=1&column=7" width="100%" alt="GitHub Trophies" />
+<p align="center">
+  <a href="https://github.com/pavan-code-06?tab=achievements" target="_blank">
+    <img src="https://img.shields.io/badge/🏆%20Achievement-Pull%20Shark-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark" />
+    <img src="https://img.shields.io/badge/⚡%20Achievement-Quickdraw-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Quickdraw" />
+    <img src="https://img.shields.io/badge/🎯%20Achievement-YOLO-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="YOLO" />
+    <img src="https://img.shields.io/badge/❄️%20Achievement-Arctic%20Code%20Vault-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Arctic Code Vault" />
+    <img src="https://img.shields.io/badge/⭐%20Achievement-Starstruck-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="Starstruck" />
+  </a>
+</p>
+
+<a href="https://github.com/pavan-code-06" target="_blank">
+  <img src="https://github-profile-trophy.vercel.app/?username=pavan-code-06&theme=tokyonight&no-frame=false&no-bg=false&margin_w=4&row=1&column=7" width="100%" alt="GitHub Trophies" />
+</a>
 
 </div>
 
@@ -414,7 +440,9 @@ I am a **Software Engineer & Computer Science Scholar** at **Nitte Meenakshi Ins
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavan-code-06&theme=tokyo-night&bg_color=0D1117&color=A855F7&line=6366F1&point=818CF8&area=true&hide_border=false" width="100%" alt="Activity Graph" />
+<a href="https://github.com/pavan-code-06" target="_blank">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pavan-code-06&theme=tokyo-night&bg_color=0D1117&color=A855F7&line=6366F1&point=818CF8&area=true&hide_border=false" width="100%" alt="Activity Graph" />
+</a>
 
 </div>
 
@@ -428,7 +456,15 @@ I am a **Software Engineer & Computer Science Scholar** at **Nitte Meenakshi Ins
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pavan-code-06/pavan-code-06/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Game Contribution Animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pavan-code-06/portfolio/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pavan-code-06/portfolio/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake Game Contribution Animation" src="https://raw.githubusercontent.com/pavan-code-06/portfolio/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
+<p align="center">
+  <sub>⚡ Automated via GitHub Actions with Platane/snk cron workflow</sub>
+</p>
 
 </div>
 
